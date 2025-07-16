@@ -1,5 +1,7 @@
-from dictionaries import codon_table
-from dictionaries import complement_table
+from Dictionaries import codon_table
+from Dictionaries import complement_table
+from Reverse_Complement import reverse_complement
+
 
 def find(codon_table, dna_list, extracted_codons):
     for key, value in codon_table.items():
@@ -18,12 +20,18 @@ def loop(dna, dna_list, block_size, start):
         return dna_list, extracted_codons
 
 #reverse complement manipulations
-def reverse_complement(nucleotide):
-    if nucleotide in complement_table:
-        return nucleotide
-    else:
-        print("This is not a base" + " " + nucleotide)
-        return ""
+def manipulation(rComplement, complement_list):
+    complement_output = ""
+    rComplement = ""
+    for plement in complement_list:
+        complement_output += plement
+        rComplement = complement_output[::-1]
+    return rComplement
+def protein_print(extracted_codons):
+    protein_list = ""
+    for base in extracted_codons:
+        protein_list += base
+    print(protein_list)
 
 def complementary(complement, complement_list):
     commence = 0
@@ -41,20 +49,6 @@ def complementary(complement, complement_list):
         # print(complement_list)
         return complement_list
 
-def manipulation(rComplement, complement_list):
-    complement_output = ""
-    rComplement = ""
-    for plement in complement_list:
-        complement_output += plement
-        rComplement = complement_output[::-1]
-    return rComplement
-def protein_print(extracted_codons):
-    protein_list = ""
-    for base in extracted_codons:
-        protein_list += base
-    print(protein_list)
-
-
 if __name__ == "__main__" :
     dna = "aggagtaagcccttgcaactggaaatacacccattg"
     complement = 0
@@ -68,12 +62,14 @@ if __name__ == "__main__" :
     #forward
     while start < (2*block_size):
         if start < block_size:
+            print (f"forward run {1 + start}")
             loop(dna, dna_list, block_size, start)
             protein_print(extracted_codons)
             extracted_codons = []
             start +=1
         #reverse
         if start >=block_size:
+            print(f"reverse run {1 + start - block_size}")
             complementary(complement, complement_list)
             rComplement = manipulation(rComplement, complement_list)
             loop(rComplement, tList, block_size, start = (start - block_size))
