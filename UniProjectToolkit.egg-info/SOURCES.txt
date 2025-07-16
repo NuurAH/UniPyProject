@@ -1,6 +1,0 @@
-README.md
-pyproject.toml
-UniProjectToolkit.egg-info/PKG-INFO
-UniProjectToolkit.egg-info/SOURCES.txt
-UniProjectToolkit.egg-info/dependency_links.txt
-UniProjectToolkit.egg-info/top_level.txt
