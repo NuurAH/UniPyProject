@@ -19,15 +19,15 @@ def reversing(start, dna, dna_list):
                 complement_list.append(key)
         start+=1
         if start == dna_length:
-            return dna_list, complement_list
+            print(complement_list)
+            return complement_list
     #Reversing the string
 
 def reverse_print (complement_output, complement_list):   
     for base in complement_list:
         complement_output += base
-        complement_output = complement_output[::-1]
+    complement_output = complement_output[::-1]
     print(complement_output)
-    return complement_output
 
 if __name__ == "__main__":
     dna = "GCTGAGACTTCCTGGACGGGGGACAGGCTGTGXGGGTTTCTCAGATAACTGGGCCXCCTGCGCTCAGGAGGCCTTCACCCTCXTGCTCTGGGTAAAGTTCAXTTGGAACAGAAAGAAATGGATTTATCTGCTCTTCGCGTTGAAGAAGTACAAAATGTCATTAATGCTATGCAGAAAATCTTAGAGTGTCCCATCTGTCTGGAGTTGATCAAGGAACCTGTCTCCACAAAGTGTGACCACATATTTTGCAAATTTTGCATGCTGAAACTTCTCAACCAGAAGAAAGGGCCTTCACAGTGTCCTTTATGTAAGAATGATATAACCAAAAGGAGCCTACAAGAAAGTACGAGATTTGAT"
