@@ -1,33 +1,40 @@
 from Dictionaries import complement_table
+from Translate import loop , find, protein_print
+
 #reverse complement manipulations
 
 def reverse_complement(nucleotide):
     if nucleotide in complement_table:
         return nucleotide
     else:
-        print("This is not a base" + " " + nucleotide)
+        print(f"this is not a base {nucleotide} ")
         return " "
 
-#remade the while loop so that it is more efficient, went from outputting 8x the wrong value (dummy nucleotides not in the dictionary) to outputting the exact amount
-def reversing(start, dna, dna_list):
+def complementary(complement, complement_list, dna):
+    commence = 0
     dna_length = len(dna)
-    while start < dna_length:
-        dna_list.append(dna[start])
-        complement = reverse_complement(dna_list[-1])
+    dna_upper = dna.upper()
+    and_list =[]
+    while commence < dna_length:
+        and_list.append(dna_upper[commence])
+        complement = reverse_complement(and_list[-1])
         for key, value in complement_table.items():
             if complement in value :
                 complement_list.append(key)
-        start+=1
-        if start == dna_length:
-            print(complement_list)
-            return complement_list
-    #Reversing the string
+        commence+=1
+    if commence == dna_length:
+        # print(complement_list)
+        return complement_list
 
-def reverse_print (complement_output, complement_list):   
-    for base in complement_list:
-        complement_output += base
-    complement_output = complement_output[::-1]
-    print(complement_output)
+def manipulation(rComplement, complement_list):
+    complement_output = ""
+    rComplement = ""
+    for plement in complement_list:
+        complement_output += plement
+        rComplement = complement_output[::-1]
+    return rComplement
+
+
 
 if __name__ == "__main__":
     dna = "GCTGAGACTTCCTGGACGGGGGACAGGCTGTGXGGGTTTCTCAGATAACTGGGCCXCCTGCGCTCAGGAGGCCTTCACCCTCXTGCTCTGGGTAAAGTTCAXTTGGAACAGAAAGAAATGGATTTATCTGCTCTTCGCGTTGAAGAAGTACAAAATGTCATTAATGCTATGCAGAAAATCTTAGAGTGTCCCATCTGTCTGGAGTTGATCAAGGAACCTGTCTCCACAAAGTGTGACCACATATTTTGCAAATTTTGCATGCTGAAACTTCTCAACCAGAAGAAAGGGCCTTCACAGTGTCCTTTATGTAAGAATGATATAACCAAAAGGAGCCTACAAGAAAGTACGAGATTTGAT"
@@ -36,6 +43,8 @@ if __name__ == "__main__":
     complement_list = []
     complement = 0
     complement_output = ""
+    rComplement = ""
 
-    reversing(start, dna, dna_list)
-    reverse_print(complement_output, complement_list)
+    complementary(complement, complement_list, dna)
+    rComplement = manipulation(rComplement, complement_list)
+    protein_print(rComplement)

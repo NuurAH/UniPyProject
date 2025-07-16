@@ -2,7 +2,11 @@ complement_table = {
     "A" : "T",
     "T" : "A",
     "G" : "C",
-    "C" : "G"
+    "C" : "G",
+    "a" : "t",
+    "t" : "a",
+    "g" : "c",
+    "c" : "g"
 }
 codon_table = {
     "F" : ["TTT","TTC"],
