@@ -31,3 +31,7 @@ codon_table = {
     "R" : ["CGT", "CGC", "CGA", "CGG", "AGA", "AGG" ],
     "G" : ["GGT", "GGC", "GGA", "GGG" ]
 }
+
+acceptable_codons = ["F", "L", "I", "M", "V", "S", "P", "T", "A", "Y", "*", "H", "Q", "N", "K", "D", "E", "C", "W", "R", "G"]
+start_codon = "M"
+stop_codon = "*"

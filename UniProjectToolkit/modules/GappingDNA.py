@@ -5,26 +5,17 @@ both values increase by block size. This causes my while loop, which evaluates t
 add it to the list. The second loop coverts the list back into a string and finally the whitespace at the front is removed using the strip function '''
 #redone to make it more modular and also, blocking was a bit redundant so I removed it
 #loops
-def gapping_dna(dna_length, dna_list, dna, block_size, start):
-   while start < dna_length :
-      dna_list.append(dna[start:start+ block_size]) 
-      start += block_size
-
-def dna_split(dna_list):
-   split_dna = ""
-   for _ in dna_list:
-      split_dna += (" " + (_) + " ") 
-#printing
-   formatted_dna = split_dna.strip()
-   print(formatted_dna)
-
-if __name__ == "__main__" :
-#variable list
-   dna = "aggagtaagcccttgcaactggaaatacacccattg"
+def gapping_dna(dna):
    dna_length = len(dna)
-   block_size = 3
-   start = 0
    dna_list = []
-   gapping_dna(dna_length, dna_list, dna, block_size, start)
-   dna_split(dna_list)
-   
+   start = 0
+   block_size = 3
+   for nucleotide in range (start, dna_length):
+         dna_list.append(dna[start:start+ block_size]) 
+         start += block_size
+   split_dna = ""
+   for base in dna_list:
+      split_dna += (" " + (base) + " ") 
+   formatted_dna = split_dna.strip()
+   return formatted_dna
+

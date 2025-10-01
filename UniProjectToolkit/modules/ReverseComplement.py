@@ -15,7 +15,7 @@ def complementary(complement, complement_list, dna):
     dna_length = len(dna)
     dna_upper = dna.upper()
     and_list =[]
-    while commence < dna_length:
+    for commence in range (0, dna_length):
         and_list.append(dna_upper[commence])
         complement = reverse_complement(and_list[-1])
         for key, value in complement_table.items():
