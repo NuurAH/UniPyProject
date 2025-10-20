@@ -1,3 +1,14 @@
-setuptools==80.9.0
-wheel==0.45.1
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.6.0
+Pygments==2.19.2
 pytest==8.4.2
+requests==2.32.5
+setuptools==80.9.0
+-e git+https://github.com/NuurAH/UniPyProject@b19ae746ab707f2a04dee8922d5f4241099a37b5#egg=UniProjectToolkit
+urllib3==2.5.0
+wheel==0.45.1
+xmltodict==1.0.2
