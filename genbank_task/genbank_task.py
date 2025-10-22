@@ -9,7 +9,7 @@ def DNA_file():
     for the different types of inputs we can have. It then converts all of the fields into
     a dictionary and returns it A second function has also been added to save different types of files
     The aim of this is to ensure that an unedited XML file can be fetched along with a dictionary
-    Furthermore, the XML can be parsed to include more information, like protein trascripts"""
+    Furthermore, the XML can be parsed to include more information, like protein transcripts"""
         # Example usage: fetch a GenBank transcript record (e.g. COL5A1 mRNA RefSeq)
     record_id = input(f"please input an ID ")
     record = fetch_transcript_record(record_id)
