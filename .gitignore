@@ -2,5 +2,7 @@ UniProjectToolkit/modules/__pycache__
 UniProjectToolkit.egg-info
 UniProjectToolkit/Test_Suite/__pycache__
 UniProjectToolkit/__pycache__
-UniProjectToolkit/logs/UniProjectToolkit.log
 UniProjectToolkit/utils/__pycache__
+Output_files
+.pytest_cache
+UniProjectToolkit/logs
