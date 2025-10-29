@@ -1,5 +1,7 @@
 from UniProjectToolkit.utils.entrez_fetch import TranscriptIdError, fetch_transcript_record
 from UniProjectToolkit.modules.logger import logger
+from UniProjectToolkit.modules.Translate import find, protein_print
+from UniProjectToolkit.modules.Dictionaries import codon_table, complement_table, stop_codon, start_codon, acceptable_codons
 import requests
 import os
 
@@ -25,8 +27,8 @@ def DNA_file():
     GB_Gene = None
     GB_Start_coordinate = None
     GB_End_coordinate = None
-    GB_Protein_seq = None
-
+    Intermediate_data = find((record['GBSeq_sequence']), codon_table)
+    GB_Protein_seq = protein_print(Intermediate_data)
     # Iterate over all annotated features in the feature table
     for line in record['GBSeq_feature-table']['GBFeature']:
 

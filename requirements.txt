@@ -8,7 +8,7 @@ Pygments==2.19.2
 pytest==8.4.2
 requests==2.32.5
 setuptools==80.9.0
--e git+https://github.com/NuurAH/UniPyProject@b19ae746ab707f2a04dee8922d5f4241099a37b5#egg=UniProjectToolkit
+-e git+https://github.com/NuurAH/UniPyProject/@4f7e29186cbe379540a1c6e452f6440906dc64bc#egg=UniProjectToolkit
 urllib3==2.5.0
 wheel==0.45.1
 xmltodict==1.0.2
