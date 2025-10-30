@@ -31,13 +31,9 @@ def complement (dna=str, default_table=dict):
 def reverse_complement (codon_table, complement_table, dna=str):
     try:
         reverse_string = complement(dna, complement_table)
-        reverse_protein = find(reverse_string, codon_table)
+        reverse_protein = find(codon_table, acceptable_codons, reverse_string)
         print(reverse_protein)
         return reverse_protein
     except Exception as e:
-            logger.error("failed reverse complemeting : {}" .format(e))
+            logger.error("failed reverse complementing : {}" .format(e))
             raise
-
-if __name__ == "__main__":
-    dna = "aggagtaagcccttgcaactggaaatacacccattg"
-    reverse_complement(codon_table, complement_table, dna)

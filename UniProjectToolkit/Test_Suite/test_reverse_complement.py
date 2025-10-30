@@ -1,4 +1,3 @@
-import pytest
 from UniProjectToolkit.modules.Dictionaries import codon_table, complement_table, acceptable_codons
 from UniProjectToolkit.modules.Translate import find, protein_print
 from UniProjectToolkit.modules.new_reverse import reverse_complement, reverse_string, complement

@@ -166,3 +166,710 @@ INFO [2025-10-30 11:53:06,710] testing for unacceptable codons ['R', 'S', 'K', '
 WARNING [2025-10-30 11:53:06,711] this codon is not in our acceptable codons: XXX
 WARNING [2025-10-30 11:53:06,711] this does not begin with a start codon!
 INFO [2025-10-30 11:53:06,711] testing for unacceptable codons ['R', 'S', 'K']
+WARNING [2025-10-30 12:11:03,127] this does not begin with a start codon!
+INFO [2025-10-30 12:11:03,127] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:11:03,128] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:11:03,128] this does not begin with a start codon!
+INFO [2025-10-30 12:11:03,128] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:11:03,130] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:11:03,130] this does not begin with a start codon!
+INFO [2025-10-30 12:11:03,130] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:13:22,060] Protein Extraction failed: unbound method str.upper() needs an argument
+ERROR [2025-10-30 12:13:22,075] Protein Extraction failed: unbound method str.upper() needs an argument
+ERROR [2025-10-30 12:13:22,079] Protein Extraction failed: unbound method str.upper() needs an argument
+WARNING [2025-10-30 12:14:03,422] this does not begin with a start codon!
+INFO [2025-10-30 12:14:03,422] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:14:03,424] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:14:03,424] this does not begin with a start codon!
+INFO [2025-10-30 12:14:03,424] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:14:03,429] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:14:03,429] this does not begin with a start codon!
+INFO [2025-10-30 12:14:03,429] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 12:29:53,031] this does not begin with a start codon!
+INFO [2025-10-30 12:29:53,031] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:29:53,032] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:29:53,033] this does not begin with a start codon!
+INFO [2025-10-30 12:29:53,033] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:29:53,034] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:29:53,034] this does not begin with a start codon!
+INFO [2025-10-30 12:29:53,034] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 12:32:57,960] this does not begin with a start codon!
+INFO [2025-10-30 12:32:57,960] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:32:57,961] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:32:57,961] this does not begin with a start codon!
+INFO [2025-10-30 12:32:57,961] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:32:57,962] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:32:57,962] this does not begin with a start codon!
+INFO [2025-10-30 12:32:57,962] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 12:32:57,963] this codon is not in our acceptable codons: *
+ERROR [2025-10-30 12:32:57,963] Protein Extraction failed: list index out of range
+WARNING [2025-10-30 12:32:57,978] TAA is a termination codon!
+WARNING [2025-10-30 12:32:57,978] this does not begin with a start codon!
+INFO [2025-10-30 12:32:57,978] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:35:15,469] this does not begin with a start codon!
+INFO [2025-10-30 12:35:15,469] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:35:15,470] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:35:15,471] this does not begin with a start codon!
+INFO [2025-10-30 12:35:15,471] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:35:15,472] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:35:15,472] this does not begin with a start codon!
+INFO [2025-10-30 12:35:15,472] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 12:35:15,473] this codon is not in our acceptable codons: *
+ERROR [2025-10-30 12:35:15,473] Protein Extraction failed: list index out of range
+WARNING [2025-10-30 12:35:15,488] TAA is a termination codon!
+WARNING [2025-10-30 12:35:15,488] this does not begin with a start codon!
+INFO [2025-10-30 12:35:15,488] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:35:52,739] this does not begin with a start codon!
+INFO [2025-10-30 12:35:52,739] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+ERROR [2025-10-30 12:35:52,740] Protein Extraction failed: 'in <string>' requires string as left operand, not NoneType
+ERROR [2025-10-30 12:35:52,755] Protein Extraction failed: 'in <string>' requires string as left operand, not NoneType
+ERROR [2025-10-30 12:35:52,759] Protein Extraction failed: 'in <string>' requires string as left operand, not NoneType
+WARNING [2025-10-30 12:35:52,763] TAA is a termination codon!
+WARNING [2025-10-30 12:35:52,763] this does not begin with a start codon!
+INFO [2025-10-30 12:35:52,763] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:36:50,862] this does not begin with a start codon!
+INFO [2025-10-30 12:36:50,862] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:36:50,863] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:36:50,863] this does not begin with a start codon!
+INFO [2025-10-30 12:36:50,863] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:36:50,865] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:36:50,865] this does not begin with a start codon!
+INFO [2025-10-30 12:36:50,865] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:36:50,866] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:36:50,881] this codon is not in our acceptable codons: TT
+WARNING [2025-10-30 12:36:50,881] this does not begin with a start codon!
+INFO [2025-10-30 12:36:50,881] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P']
+WARNING [2025-10-30 12:37:16,241] this does not begin with a start codon!
+INFO [2025-10-30 12:37:16,242] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:37:16,243] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:37:16,243] this does not begin with a start codon!
+INFO [2025-10-30 12:37:16,243] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:37:16,244] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:37:16,244] this does not begin with a start codon!
+INFO [2025-10-30 12:37:16,244] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:37:16,245] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:37:16,259] this does not begin with a start codon!
+INFO [2025-10-30 12:37:16,259] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:37:59,902] this does not begin with a start codon!
+INFO [2025-10-30 12:37:59,902] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:37:59,903] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:37:59,903] this does not begin with a start codon!
+INFO [2025-10-30 12:37:59,903] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:37:59,904] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:37:59,904] this does not begin with a start codon!
+INFO [2025-10-30 12:37:59,904] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:37:59,905] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:37:59,920] TAA is a termination codon!
+WARNING [2025-10-30 12:37:59,920] this does not begin with a start codon!
+INFO [2025-10-30 12:37:59,920] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:39:10,608] this does not begin with a start codon!
+INFO [2025-10-30 12:39:10,608] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:39:10,609] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:39:10,609] this does not begin with a start codon!
+INFO [2025-10-30 12:39:10,609] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:39:10,610] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:39:10,610] this does not begin with a start codon!
+INFO [2025-10-30 12:39:10,610] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:39:10,611] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:39:10,626] TAA is a termination codon!
+WARNING [2025-10-30 12:39:10,626] this does not begin with a start codon!
+INFO [2025-10-30 12:39:10,627] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:41:49,185] this does not begin with a start codon!
+INFO [2025-10-30 12:41:49,185] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:41:49,187] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:41:49,187] this does not begin with a start codon!
+INFO [2025-10-30 12:41:49,187] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:41:49,189] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:41:49,189] this does not begin with a start codon!
+INFO [2025-10-30 12:41:49,190] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:41:49,191] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:41:49,205] TAA is a termination codon!
+WARNING [2025-10-30 12:41:49,206] TAA is a termination codon!
+WARNING [2025-10-30 12:41:49,206] this does not begin with a start codon!
+INFO [2025-10-30 12:41:49,206] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 12:42:58,653] this does not begin with a start codon!
+INFO [2025-10-30 12:42:58,654] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:42:58,655] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 12:42:58,655] this does not begin with a start codon!
+INFO [2025-10-30 12:42:58,655] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 12:42:58,656] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 12:42:58,656] this does not begin with a start codon!
+INFO [2025-10-30 12:42:58,656] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 12:42:58,657] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 12:42:58,672] TAA is a termination codon!
+WARNING [2025-10-30 12:42:58,672] TAA is a termination codon!
+WARNING [2025-10-30 12:42:58,672] this does not begin with a start codon!
+INFO [2025-10-30 12:42:58,672] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:02:53,609] this does not begin with a start codon!
+INFO [2025-10-30 15:02:53,609] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:02:53,610] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:02:53,610] this does not begin with a start codon!
+INFO [2025-10-30 15:02:53,610] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:02:53,611] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:02:53,611] this does not begin with a start codon!
+INFO [2025-10-30 15:02:53,611] testing for unacceptable codons in the middle ['R', 'S', 'K']
+ERROR [2025-10-30 15:02:53,612] Protein Extraction failed: 'list' object has no attribute 'upper'
+WARNING [2025-10-30 15:02:53,627] TAA is a termination codon!
+WARNING [2025-10-30 15:02:53,627] TAA is a termination codon!
+WARNING [2025-10-30 15:02:53,627] this does not begin with a start codon!
+INFO [2025-10-30 15:02:53,627] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:02:53,663] this does not begin with a start codon!
+INFO [2025-10-30 15:02:53,663] testing for extracting proteins from split dna function ['R', 'S', 'M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:05:56,668] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,669] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:05:56,670] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:05:56,670] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,670] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:05:56,671] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:05:56,671] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,671] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:05:56,672] TAA is a termination codon!
+WARNING [2025-10-30 15:05:56,672] TAA is a termination codon!
+WARNING [2025-10-30 15:05:56,672] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,672] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:05:56,673] TAA is a termination codon!
+WARNING [2025-10-30 15:05:56,673] TAA is a termination codon!
+WARNING [2025-10-30 15:05:56,673] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,673] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:05:56,718] this does not begin with a start codon!
+INFO [2025-10-30 15:05:56,718] testing for extracting proteins from split dna function ['R', 'S', 'M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:07:43,607] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,607] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:07:43,608] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:07:43,608] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,608] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:07:43,609] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:07:43,609] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,609] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:07:43,610] TAA is a termination codon!
+WARNING [2025-10-30 15:07:43,610] TAA is a termination codon!
+WARNING [2025-10-30 15:07:43,610] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,610] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:07:43,611] TAA is a termination codon!
+WARNING [2025-10-30 15:07:43,611] TAA is a termination codon!
+WARNING [2025-10-30 15:07:43,612] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,612] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:07:43,656] this does not begin with a start codon!
+INFO [2025-10-30 15:07:43,656] testing for extracting proteins from split dna function ['R', 'S', 'M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:08:31,386] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,386] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:08:31,387] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:08:31,387] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,387] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:08:31,388] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:08:31,388] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,388] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:08:31,389] TAA is a termination codon!
+WARNING [2025-10-30 15:08:31,390] TAA is a termination codon!
+WARNING [2025-10-30 15:08:31,390] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,390] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:08:31,391] TAA is a termination codon!
+WARNING [2025-10-30 15:08:31,391] TAA is a termination codon!
+WARNING [2025-10-30 15:08:31,391] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,391] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:08:31,435] this does not begin with a start codon!
+INFO [2025-10-30 15:08:31,435] testing for extracting proteins from split dna function ['R', 'S', 'M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:13:01,019] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,019] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:13:01,020] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:13:01,021] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,021] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:13:01,022] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:13:01,022] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,022] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:13:01,023] TAA is a termination codon!
+WARNING [2025-10-30 15:13:01,023] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,023] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:13:01,024] TAA is a termination codon!
+WARNING [2025-10-30 15:13:01,024] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,024] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:13:01,072] this does not begin with a start codon!
+INFO [2025-10-30 15:13:01,072] testing for extracting proteins from split dna function ['R', 'S', 'M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:17:33,231] this does not begin with a start codon!
+INFO [2025-10-30 15:17:33,232] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:17:33,233] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:17:33,233] this does not begin with a start codon!
+INFO [2025-10-30 15:17:33,233] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:17:33,234] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:17:33,234] this does not begin with a start codon!
+INFO [2025-10-30 15:17:33,234] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:17:33,235] TAA is a termination codon!
+WARNING [2025-10-30 15:17:33,235] this does not begin with a start codon!
+INFO [2025-10-30 15:17:33,235] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:17:33,237] TAA is a termination codon!
+WARNING [2025-10-30 15:17:33,237] this does not begin with a start codon!
+INFO [2025-10-30 15:17:33,237] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:17:33,284] this does not begin with a start codon!
+WARNING [2025-10-30 15:19:20,937] this does not begin with a start codon!
+INFO [2025-10-30 15:19:20,937] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+ERROR [2025-10-30 15:19:20,939] Protein Extraction failed: 'in <string>' requires string as left operand, not NoneType
+ERROR [2025-10-30 15:19:20,960] Protein Extraction failed: 'in <string>' requires string as left operand, not NoneType
+WARNING [2025-10-30 15:19:20,970] TAA is a termination codon!
+WARNING [2025-10-30 15:19:20,970] this does not begin with a start codon!
+INFO [2025-10-30 15:19:20,970] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:19:20,971] TAA is a termination codon!
+WARNING [2025-10-30 15:19:20,972] this does not begin with a start codon!
+INFO [2025-10-30 15:19:20,972] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:19:21,016] this does not begin with a start codon!
+INFO [2025-10-30 15:19:21,016] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:22:48,876] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,877] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:22:48,878] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:22:48,878] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,878] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:22:48,879] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:22:48,879] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,879] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:22:48,880] TAA is a termination codon!
+WARNING [2025-10-30 15:22:48,880] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,880] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:22:48,881] TAA is a termination codon!
+WARNING [2025-10-30 15:22:48,881] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,881] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:22:48,925] this does not begin with a start codon!
+INFO [2025-10-30 15:22:48,925] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:23:35,426] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,426] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:23:35,427] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:23:35,427] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,427] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:23:35,428] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:23:35,428] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,428] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:23:35,429] TAA is a termination codon!
+WARNING [2025-10-30 15:23:35,429] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,429] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:23:35,430] TAA is a termination codon!
+WARNING [2025-10-30 15:23:35,431] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,431] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:23:35,476] this does not begin with a start codon!
+INFO [2025-10-30 15:23:35,476] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:25:05,498] this does not begin with a start codon!
+INFO [2025-10-30 15:25:05,498] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:25:05,499] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:25:05,499] this does not begin with a start codon!
+INFO [2025-10-30 15:25:05,499] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:25:05,500] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:25:05,500] this does not begin with a start codon!
+INFO [2025-10-30 15:25:05,500] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:25:05,501] TAA is a termination codon!
+WARNING [2025-10-30 15:25:05,501] this does not begin with a start codon!
+INFO [2025-10-30 15:25:05,501] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:25:05,502] TAA is a termination codon!
+WARNING [2025-10-30 15:25:05,502] this does not begin with a start codon!
+WARNING [2025-10-30 15:25:05,517] this does not begin with a start codon!
+INFO [2025-10-30 15:25:05,517] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:29:32,998] this does not begin with a start codon!
+INFO [2025-10-30 15:29:32,998] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:29:33,000] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:29:33,000] this does not begin with a start codon!
+INFO [2025-10-30 15:29:33,000] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:29:33,001] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:29:33,001] this does not begin with a start codon!
+INFO [2025-10-30 15:29:33,001] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:29:33,002] TAA is a termination codon!
+WARNING [2025-10-30 15:29:33,002] this does not begin with a start codon!
+INFO [2025-10-30 15:29:33,003] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:29:33,004] TAA is a termination codon!
+WARNING [2025-10-30 15:29:33,004] this does not begin with a start codon!
+WARNING [2025-10-30 15:29:33,020] this does not begin with a start codon!
+INFO [2025-10-30 15:29:33,020] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:31:19,540] this does not begin with a start codon!
+INFO [2025-10-30 15:31:19,540] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:31:19,542] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:31:19,542] this does not begin with a start codon!
+INFO [2025-10-30 15:31:19,542] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:31:19,543] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:31:19,543] this does not begin with a start codon!
+INFO [2025-10-30 15:31:19,543] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:31:19,544] TAA is a termination codon!
+WARNING [2025-10-30 15:31:19,544] this does not begin with a start codon!
+INFO [2025-10-30 15:31:19,544] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:31:19,545] TAA is a termination codon!
+WARNING [2025-10-30 15:31:19,545] this does not begin with a start codon!
+WARNING [2025-10-30 15:31:19,559] this does not begin with a start codon!
+INFO [2025-10-30 15:31:19,559] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:33:16,505] this does not begin with a start codon!
+INFO [2025-10-30 15:33:16,505] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:33:16,506] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:33:16,506] this does not begin with a start codon!
+INFO [2025-10-30 15:33:16,506] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:33:16,507] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:33:16,507] this does not begin with a start codon!
+INFO [2025-10-30 15:33:16,507] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:33:16,508] TAA is a termination codon!
+WARNING [2025-10-30 15:33:16,508] this does not begin with a start codon!
+INFO [2025-10-30 15:33:16,508] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:33:16,509] TAA is a termination codon!
+WARNING [2025-10-30 15:33:16,510] this does not begin with a start codon!
+WARNING [2025-10-30 15:33:16,524] this does not begin with a start codon!
+INFO [2025-10-30 15:33:16,525] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:34:16,459] this does not begin with a start codon!
+INFO [2025-10-30 15:34:16,460] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:34:16,461] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:34:16,461] this does not begin with a start codon!
+INFO [2025-10-30 15:34:16,461] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:34:16,462] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:34:16,462] this does not begin with a start codon!
+INFO [2025-10-30 15:34:16,462] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:34:16,463] TAA is a termination codon!
+WARNING [2025-10-30 15:34:16,463] this does not begin with a start codon!
+INFO [2025-10-30 15:34:16,463] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:34:16,464] TAA is a termination codon!
+WARNING [2025-10-30 15:34:16,464] this does not begin with a start codon!
+WARNING [2025-10-30 15:34:16,478] this does not begin with a start codon!
+INFO [2025-10-30 15:34:16,478] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:37:49,962] this does not begin with a start codon!
+INFO [2025-10-30 15:37:49,963] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:37:49,964] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:37:49,964] this does not begin with a start codon!
+INFO [2025-10-30 15:37:49,964] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:37:49,965] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:37:49,965] this does not begin with a start codon!
+INFO [2025-10-30 15:37:49,965] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:37:49,966] TAA is a termination codon!
+WARNING [2025-10-30 15:37:49,966] this does not begin with a start codon!
+INFO [2025-10-30 15:37:49,966] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:37:49,967] TAA is a termination codon!
+WARNING [2025-10-30 15:37:49,967] this does not begin with a start codon!
+WARNING [2025-10-30 15:37:49,982] this does not begin with a start codon!
+WARNING [2025-10-30 15:39:02,753] this does not begin with a start codon!
+INFO [2025-10-30 15:39:02,754] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:39:02,758] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:39:02,758] this does not begin with a start codon!
+INFO [2025-10-30 15:39:02,758] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:39:02,763] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:39:02,764] this does not begin with a start codon!
+INFO [2025-10-30 15:39:02,765] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:39:02,769] TAA is a termination codon!
+WARNING [2025-10-30 15:39:02,769] this does not begin with a start codon!
+INFO [2025-10-30 15:39:02,769] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:39:02,770] TAA is a termination codon!
+WARNING [2025-10-30 15:39:02,770] this does not begin with a start codon!
+WARNING [2025-10-30 15:39:02,826] this does not begin with a start codon!
+WARNING [2025-10-30 15:45:55,956] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,956] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:45:55,958] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:45:55,958] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,958] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:45:55,959] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:45:55,959] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,959] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:45:55,960] TAA is a termination codon!
+WARNING [2025-10-30 15:45:55,960] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,960] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:45:55,961] TAA is a termination codon!
+WARNING [2025-10-30 15:45:55,961] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,961] testing for termination codon not flagging None
+WARNING [2025-10-30 15:45:55,975] this does not begin with a start codon!
+INFO [2025-10-30 15:45:55,975] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:46:23,268] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,269] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:46:23,270] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:46:23,270] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,270] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:46:23,271] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:46:23,271] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,271] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:46:23,272] TAA is a termination codon!
+WARNING [2025-10-30 15:46:23,272] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,272] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:46:23,273] TAA is a termination codon!
+WARNING [2025-10-30 15:46:23,273] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,273] testing for termination codon not flagging None
+WARNING [2025-10-30 15:46:23,288] this does not begin with a start codon!
+INFO [2025-10-30 15:46:23,288] testing for extracting proteins from split dna function None
+WARNING [2025-10-30 15:49:44,249] this does not begin with a start codon!
+INFO [2025-10-30 15:49:44,249] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:49:44,250] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:49:44,250] this does not begin with a start codon!
+INFO [2025-10-30 15:49:44,250] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:49:44,251] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:49:44,251] this does not begin with a start codon!
+INFO [2025-10-30 15:49:44,251] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:49:44,252] TAA is a termination codon!
+WARNING [2025-10-30 15:49:44,252] this does not begin with a start codon!
+INFO [2025-10-30 15:49:44,252] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:49:44,253] TAA is a termination codon!
+WARNING [2025-10-30 15:49:44,253] this does not begin with a start codon!
+WARNING [2025-10-30 15:49:44,267] this does not begin with a start codon!
+WARNING [2025-10-30 15:50:02,721] this does not begin with a start codon!
+INFO [2025-10-30 15:50:02,721] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:50:02,723] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:50:02,723] this does not begin with a start codon!
+INFO [2025-10-30 15:50:02,723] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:50:02,725] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:50:02,725] this does not begin with a start codon!
+INFO [2025-10-30 15:50:02,725] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:50:02,727] TAA is a termination codon!
+WARNING [2025-10-30 15:50:02,728] this does not begin with a start codon!
+INFO [2025-10-30 15:50:02,728] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:50:02,729] TAA is a termination codon!
+WARNING [2025-10-30 15:50:02,729] this does not begin with a start codon!
+WARNING [2025-10-30 15:50:02,821] this does not begin with a start codon!
+WARNING [2025-10-30 15:50:34,577] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,577] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:50:34,578] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:50:34,578] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,578] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:50:34,579] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:50:34,580] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,580] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:50:34,581] TAA is a termination codon!
+WARNING [2025-10-30 15:50:34,581] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,581] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:50:34,582] TAA is a termination codon!
+WARNING [2025-10-30 15:50:34,582] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,582] testing for termination codon not flagging []
+WARNING [2025-10-30 15:50:34,639] this does not begin with a start codon!
+INFO [2025-10-30 15:50:34,639] testing for extracting proteins from split dna function []
+WARNING [2025-10-30 15:51:48,176] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,176] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:51:48,177] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:51:48,177] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,177] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:51:48,178] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:51:48,178] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,178] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:51:48,179] TAA is a termination codon!
+WARNING [2025-10-30 15:51:48,179] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,179] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:51:48,180] TAA is a termination codon!
+WARNING [2025-10-30 15:51:48,180] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,180] testing for termination codon not flagging []
+WARNING [2025-10-30 15:51:48,226] TAA is a termination codon!
+WARNING [2025-10-30 15:51:48,227] this does not begin with a start codon!
+INFO [2025-10-30 15:51:48,227] testing for extracting proteins from split dna function []
+WARNING [2025-10-30 15:53:35,273] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,274] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:53:35,275] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:53:35,275] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,275] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:53:35,276] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:53:35,276] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,276] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:53:35,277] TAA is a termination codon!
+WARNING [2025-10-30 15:53:35,277] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,277] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:53:35,278] TAA is a termination codon!
+WARNING [2025-10-30 15:53:35,278] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,278] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:53:35,323] TAA is a termination codon!
+WARNING [2025-10-30 15:53:35,323] this does not begin with a start codon!
+INFO [2025-10-30 15:53:35,324] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:03,681] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,681] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:03,687] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:54:03,687] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,687] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:03,690] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:54:03,690] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,690] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:03,693] TAA is a termination codon!
+WARNING [2025-10-30 15:54:03,693] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,693] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:03,697] TAA is a termination codon!
+WARNING [2025-10-30 15:54:03,698] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,699] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:54:03,776] this does not begin with a start codon!
+INFO [2025-10-30 15:54:03,776] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:25,858] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,858] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:25,859] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:54:25,859] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,859] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:25,860] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:54:25,860] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,860] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:25,861] TAA is a termination codon!
+WARNING [2025-10-30 15:54:25,861] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,861] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:25,862] TAA is a termination codon!
+WARNING [2025-10-30 15:54:25,862] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,862] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:54:25,905] this does not begin with a start codon!
+INFO [2025-10-30 15:54:25,905] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:50,178] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,178] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:50,179] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:54:50,180] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,180] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:54:50,181] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:54:50,181] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,181] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:50,182] TAA is a termination codon!
+WARNING [2025-10-30 15:54:50,182] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,182] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:54:50,183] TAA is a termination codon!
+WARNING [2025-10-30 15:54:50,183] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,183] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:54:50,227] this does not begin with a start codon!
+INFO [2025-10-30 15:54:50,227] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:59:59,575] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,575] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:59:59,577] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 15:59:59,577] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,577] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 15:59:59,578] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 15:59:59,578] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,578] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 15:59:59,579] TAA is a termination codon!
+WARNING [2025-10-30 15:59:59,579] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,579] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 15:59:59,580] TAA is a termination codon!
+WARNING [2025-10-30 15:59:59,580] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,580] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 15:59:59,623] this does not begin with a start codon!
+INFO [2025-10-30 15:59:59,624] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:23,909] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,909] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:23,910] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:00:23,911] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,911] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:23,912] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:00:23,912] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,912] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:00:23,913] TAA is a termination codon!
+WARNING [2025-10-30 16:00:23,913] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,913] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 16:00:23,914] TAA is a termination codon!
+WARNING [2025-10-30 16:00:23,914] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,914] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 16:00:23,963] this does not begin with a start codon!
+INFO [2025-10-30 16:00:23,963] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:47,879] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,879] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:47,880] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:00:47,880] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,880] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:00:47,881] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:00:47,881] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,882] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:00:47,882] TAA is a termination codon!
+WARNING [2025-10-30 16:00:47,882] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,883] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 16:00:47,883] TAA is a termination codon!
+WARNING [2025-10-30 16:00:47,884] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,884] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 16:00:47,930] this does not begin with a start codon!
+INFO [2025-10-30 16:00:47,930] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:07,724] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,724] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:07,725] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:01:07,725] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,725] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:07,726] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:01:07,726] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,726] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:01:07,727] TAA is a termination codon!
+WARNING [2025-10-30 16:01:07,727] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,727] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 16:01:07,728] TAA is a termination codon!
+WARNING [2025-10-30 16:01:07,728] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,728] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 16:01:07,771] this does not begin with a start codon!
+INFO [2025-10-30 16:01:07,771] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:20,025] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,025] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:20,026] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:01:20,026] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,027] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:01:20,028] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:01:20,028] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,028] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:01:20,029] TAA is a termination codon!
+WARNING [2025-10-30 16:01:20,029] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,029] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 16:01:20,030] TAA is a termination codon!
+WARNING [2025-10-30 16:01:20,030] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,030] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 16:01:20,090] this does not begin with a start codon!
+INFO [2025-10-30 16:01:20,090] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:13,217] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,217] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:13,218] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:04:13,218] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,218] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:13,219] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:04:13,219] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,219] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:04:13,220] TAA is a termination codon!
+WARNING [2025-10-30 16:04:13,220] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,220] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K']
+WARNING [2025-10-30 16:04:13,221] TAA is a termination codon!
+WARNING [2025-10-30 16:04:13,221] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,221] testing for termination codon not flagging ['R', 'S']
+WARNING [2025-10-30 16:04:13,265] this does not begin with a start codon!
+INFO [2025-10-30 16:04:13,265] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:42,349] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,349] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:42,351] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:04:42,352] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,352] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:42,358] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:04:42,366] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,366] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:04:42,368] this codon is not in our acceptable codons: TT
+WARNING [2025-10-30 16:04:42,370] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,370] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K', '*', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P']
+WARNING [2025-10-30 16:04:42,374] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,377] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:04:42,382] this does not begin with a start codon!
+INFO [2025-10-30 16:04:42,383] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:01,641] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,643] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:01,646] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:08:01,646] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,646] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:01,651] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:08:01,651] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,651] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:08:01,656] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,656] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:01,663] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,663] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:01,668] this codon is not in our acceptable codons: TT
+WARNING [2025-10-30 16:08:01,668] this does not begin with a start codon!
+INFO [2025-10-30 16:08:01,668] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K', '*', '*']
+WARNING [2025-10-30 16:08:13,987] this does not begin with a start codon!
+INFO [2025-10-30 16:08:13,988] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:13,992] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:08:13,993] this does not begin with a start codon!
+INFO [2025-10-30 16:08:13,993] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:13,996] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:08:13,999] this does not begin with a start codon!
+INFO [2025-10-30 16:08:14,000] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:08:14,004] this does not begin with a start codon!
+INFO [2025-10-30 16:08:14,005] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:14,006] this does not begin with a start codon!
+INFO [2025-10-30 16:08:14,006] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:08:14,007] this codon is not in our acceptable codons: TT
+WARNING [2025-10-30 16:08:14,008] this does not begin with a start codon!
+INFO [2025-10-30 16:08:14,008] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K', '*', '*']
+WARNING [2025-10-30 16:10:12,947] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,948] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:10:12,949] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 16:10:12,949] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,949] testing for unacceptable codons at the end ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:10:12,950] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 16:10:12,950] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,950] testing for unacceptable codons in the middle ['R', 'S', 'K']
+WARNING [2025-10-30 16:10:12,951] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,951] testing for termination codon not flagging ['R', 'S', '*', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:10:12,952] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,952] testing for extracting proteins from split dna function ['M', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 16:10:12,953] this codon is not in our acceptable codons: TT
+WARNING [2025-10-30 16:10:12,953] this does not begin with a start codon!
+INFO [2025-10-30 16:10:12,954] testing to see if a stop codon terminates this but only if the relevant argument is added ['R', 'S', 'K', '*', '*']
+INFO [2025-10-30 16:15:15,072] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 16:15:15,073] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+ERROR [2025-10-30 16:15:15,074] Protein Extraction failed: unbound method str.upper() needs an argument
+ERROR [2025-10-30 16:15:15,074] failed reverse complemeting : unbound method str.upper() needs an argument
+INFO [2025-10-30 16:18:28,871] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 16:18:28,872] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+INFO [2025-10-30 16:18:28,873] this does not begin with a start codon!
+INFO [2025-10-30 16:18:28,873] testing for overall functionality of reversing string and then finding the protein['Q', 'W', 'V', 'Y', 'F', 'Q', 'L', 'Q', 'G', 'L', 'T', 'P']
+INFO [2025-10-30 16:20:17,328] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 16:20:17,329] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+INFO [2025-10-30 16:20:17,330] this does not begin with a start codon!
+INFO [2025-10-30 16:20:17,330] testing for overall functionality of reversing string and then finding the protein['Q', 'W', 'V', 'Y', 'F', 'Q', 'L', 'Q', 'G', 'L', 'T', 'P']
