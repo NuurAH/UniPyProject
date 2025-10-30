@@ -20,3 +20,149 @@ WARNING [2025-10-29 15:32:02,802] Unknown codon: CTC
 ERROR [2025-10-29 15:32:02,803] Protein Extraction failed: No active exception to reraise
 WARNING [2025-10-29 15:34:40,081] Unknown codon: CTC
 ERROR [2025-10-29 15:34:40,081] Protein Extraction failed: No active exception to reraise
+INFO [2025-10-29 16:50:55,788] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+INFO [2025-10-30 09:49:53,402] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+INFO [2025-10-30 09:50:10,863] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 09:58:40,884] Unknown codon: GCT
+ERROR [2025-10-30 09:58:40,884] Protein Extraction failed: No active exception to reraise
+INFO [2025-10-30 10:05:51,358] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 10:09:35,094] Unknown codon: TGX
+ERROR [2025-10-30 10:09:35,094] Protein Extraction failed: No active exception to reraise
+WARNING [2025-10-30 10:14:41,099] Unknown codon: TGX
+ERROR [2025-10-30 10:14:41,099] Protein Extraction failed: No active exception to reraise
+INFO [2025-10-30 10:34:34,347] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+INFO [2025-10-30 10:36:05,472] testing for protein list when reverse complementing['V', 'T', 'H', 'I', 'K', 'V', 'N', 'V', 'P', 'E', '*', 'G']
+INFO [2025-10-30 10:39:03,941] testing for protein list when reverse complementing['V', 'T', 'H', 'I', 'K', 'V', 'N', 'V', 'P', 'E', '*', 'G']
+INFO [2025-10-30 10:39:03,943] testing for reversing string  before doing reverse_complement<function reverse_string at 0x70fdc02399e0>
+INFO [2025-10-30 10:39:30,178] testing for protein list when reverse complementing['V', 'T', 'H', 'I', 'K', 'V', 'N', 'V', 'P', 'E', '*', 'G']
+INFO [2025-10-30 10:39:30,179] testing for reversing string  before doing reverse_complement<function reverse_string at 0x76dd702159e0>
+INFO [2025-10-30 10:40:29,838] testing for protein list when reverse complementing['V', 'T', 'H', 'I', 'K', 'V', 'N', 'V', 'P', 'E', '*', 'G']
+INFO [2025-10-30 10:40:29,840] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+WARNING [2025-10-30 10:57:04,808] Unknown nucleotide!: gga
+ERROR [2025-10-30 10:57:04,808] Protein Extraction failed: No active exception to reraise
+INFO [2025-10-30 11:07:26,158] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 11:07:26,159] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+INFO [2025-10-30 11:30:18,536] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 11:30:18,537] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+INFO [2025-10-30 11:30:25,056] testing for reversing string  before doing reverse_complementgttacccacataaaggtcaacgttcccgaatgagga
+INFO [2025-10-30 11:30:25,058] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
+INFO [2025-10-30 11:30:25,059] testing for overall functionality of reversing string and then finding the protein['Q', 'W', 'V', 'Y', 'F', 'Q', 'L', 'Q', 'G', 'L', 'T', 'P']
+ERROR [2025-10-30 11:33:55,177] Protein Extraction failed: unbound method str.upper() needs an argument
+ERROR [2025-10-30 11:34:24,761] Protein Extraction failed: unbound method str.upper() needs an argument
+INFO [2025-10-30 11:34:51,868] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:35:11,447] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:35:11,447] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L', None]
+INFO [2025-10-30 11:38:35,950] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:38:35,951] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:38:35,951] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L', None]
+INFO [2025-10-30 11:40:27,092] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:40:27,093] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:40:27,093] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L', None]
+WARNING [2025-10-30 11:40:27,094] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 11:40:27,094] this codon is not in our acceptable codons: TT
+INFO [2025-10-30 11:40:27,094] testing for unacceptable codons ['R', 'S', 'K', None, 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', None]
+INFO [2025-10-30 11:44:04,018] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:44:04,019] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:44:04,019] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L', None]
+WARNING [2025-10-30 11:44:04,020] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 11:44:04,021] this codon is not in our acceptable codons: TT
+INFO [2025-10-30 11:44:04,021] testing for unacceptable codons ['R', 'S', 'K', None, 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', None]
+INFO [2025-10-30 11:44:53,202] testing for extracting proteins from split dna function []
+INFO [2025-10-30 11:44:53,247] testing for unacceptable codons []
+INFO [2025-10-30 11:44:53,251] testing for unacceptable codons []
+INFO [2025-10-30 11:45:38,631] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:45:38,633] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:45:38,633] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:45:38,676] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:45:38,676] testing for unacceptable codons ['R', 'S', 'K']
+INFO [2025-10-30 11:46:18,742] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:46:18,743] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:46:18,743] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:46:18,744] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:46:18,744] testing for unacceptable codons ['R', 'S', 'K']
+ERROR [2025-10-30 11:48:30,198] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:48:30,212] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:48:30,216] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:49:57,242] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:49:57,257] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:49:57,261] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:50:54,005] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:50:54,020] Protein Extraction failed: list index out of range
+ERROR [2025-10-30 11:50:54,023] Protein Extraction failed: list index out of range
+INFO [2025-10-30 11:51:12,640] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:51:12,642] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:51:12,642] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:51:12,643] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:51:12,643] testing for unacceptable codons ['R', 'S', 'K']
+WARNING [2025-10-30 11:52:03,956] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,956] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,956] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,956] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,957] this does not begin with a start codon!
+INFO [2025-10-30 11:52:03,957] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,958] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,959] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:52:03,959] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:52:03,960] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,960] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,960] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:03,960] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:52:03,960] testing for unacceptable codons ['R', 'S', 'K']
+WARNING [2025-10-30 11:52:34,353] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,353] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,354] this does not begin with a start codon!
+INFO [2025-10-30 11:52:34,354] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:52:34,355] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,355] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,355] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,355] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,356] this codon is not in our acceptable codons: ABC
+INFO [2025-10-30 11:52:34,356] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:52:34,357] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,357] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,357] this does not begin with a start codon!
+WARNING [2025-10-30 11:52:34,357] this codon is not in our acceptable codons: XXX
+INFO [2025-10-30 11:52:34,357] testing for unacceptable codons ['R', 'S', 'K']
+WARNING [2025-10-30 11:53:06,709] this does not begin with a start codon!
+INFO [2025-10-30 11:53:06,709] testing for extracting proteins from split dna function ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:53:06,710] this codon is not in our acceptable codons: ABC
+WARNING [2025-10-30 11:53:06,710] this does not begin with a start codon!
+INFO [2025-10-30 11:53:06,710] testing for unacceptable codons ['R', 'S', 'K', 'P', 'L', 'Q', 'L', 'E', 'I', 'H', 'P', 'L']
+WARNING [2025-10-30 11:53:06,711] this codon is not in our acceptable codons: XXX
+WARNING [2025-10-30 11:53:06,711] this does not begin with a start codon!
+INFO [2025-10-30 11:53:06,711] testing for unacceptable codons ['R', 'S', 'K']

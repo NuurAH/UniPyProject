@@ -1,12 +1,10 @@
 from UniProjectToolkit.modules.Dictionaries import acceptable_codons, stop_codon, start_codon
-from UniProjectToolkit.modules.Dictionaries import codon_table as default_table
+from UniProjectToolkit.modules.Dictionaries import codon_table
 from UniProjectToolkit.modules.GappingDNA import split_dna
 from UniProjectToolkit.modules.logger import logger
 
 #functions   
-def find(dna, codon_table):
-    if codon_table is None:
-        codon_table = default_table
+def find(codon_table, acceptable_codons, dna=str):
     try:
         dna_upper= dna.upper()
         dna_list = split_dna(dna_upper,block_size=3)
@@ -17,10 +15,18 @@ def find(dna, codon_table):
                 if codon in value:
                     protein = key
                     break
-            if protein is None:
+            if protein == "*":
+                logger.warning(f"{codon} is a termination codon!")
+            elif protein not in acceptable_codons:
+                logger.warning (f"this codon is not in our acceptable codons: {codon}")
+                break
+            elif protein is None:
                 logger.warning(f"Unknown codon: {codon}")
-                raise
+                break
             extracted_proteins.append(protein) 
+        if extracted_proteins[0] != "M":
+         logger.warning (f"this does not begin with a start codon!")
+
 
         return extracted_proteins
     except Exception as e:
@@ -44,7 +50,7 @@ def find(dna, codon_table):
 #     return dna_list, extracted_codons
 
 
-def protein_print(extracted_proteins):
+def protein_print(extracted_proteins=list):
     protein_string = ""
     for protein in extracted_proteins:
         protein_string += protein
