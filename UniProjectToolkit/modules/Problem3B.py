@@ -1,7 +1,7 @@
-def fileAmino(amino_list, interest):
+def fileAmino(amino_list=list):
+    amino_list = []
     fileOf = input("Which file would you like to read in?")
     interest = open(fileOf, "rt")
-    print(type(interest))
     amino_acid = input("Put in a 3-letter code for an amino acid, and I'll tell you how many lines contain it")
     with interest:
         for codon,text in enumerate(interest):
@@ -14,10 +14,7 @@ def fileAmino(amino_list, interest):
         print(f"The amino acid, {amino_acid}, appears once")
     elif amino_count >1:
         print(f"The amino acid, {amino_acid}, appears {amino_count} times")
-    return interest
+    return interest, amino_list
 
 if __name__ == "__main__":
-    fileOf = ""
-    interest = []
-    amino_List = []
-    fileAmino(amino_List, interest)
+    fileAmino(amino_list=list)

@@ -1,5 +1,5 @@
 def fileLine(fileOf):
-    interest = open(fileOf, "rt")
+    interest = open("UniProjectToolkit/modules/1abc.sec", "rt")
     length = len(interest.readlines())
     print("Lines", length)
     interest.close()

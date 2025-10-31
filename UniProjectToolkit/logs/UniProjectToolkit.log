@@ -873,3 +873,403 @@ INFO [2025-10-30 16:20:17,328] testing for reversing string  before doing revers
 INFO [2025-10-30 16:20:17,329] testing for dna string when reverse complementingcaatgggtgtatttccagttgcaagggcttactcct
 INFO [2025-10-30 16:20:17,330] this does not begin with a start codon!
 INFO [2025-10-30 16:20:17,330] testing for overall functionality of reversing string and then finding the protein['Q', 'W', 'V', 'Y', 'F', 'Q', 'L', 'Q', 'G', 'L', 'T', 'P']
+INFO [2025-10-31 09:47:21,508] this does not begin with a start codon!
+WARNING [2025-10-31 09:47:21,509] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 09:47:21,509] this does not begin with a start codon!
+WARNING [2025-10-31 09:47:21,509] this codon is not in our acceptable codons: G
+INFO [2025-10-31 09:47:21,509] this does not begin with a start codon!
+INFO [2025-10-31 09:51:36,044] this does not begin with a start codon!
+WARNING [2025-10-31 09:51:36,044] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 09:51:36,044] this does not begin with a start codon!
+WARNING [2025-10-31 09:51:36,044] this codon is not in our acceptable codons: G
+INFO [2025-10-31 09:51:36,044] this does not begin with a start codon!
+INFO [2025-10-31 09:51:36,045] this does not begin with a start codon!
+WARNING [2025-10-31 09:51:36,045] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 09:51:36,045] this does not begin with a start codon!
+WARNING [2025-10-31 09:51:36,045] this codon is not in our acceptable codons: C
+INFO [2025-10-31 09:51:36,045] this does not begin with a start codon!
+INFO [2025-10-31 09:52:46,136] this does not begin with a start codon!
+WARNING [2025-10-31 09:52:46,136] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 09:52:46,136] this does not begin with a start codon!
+WARNING [2025-10-31 09:52:46,136] this codon is not in our acceptable codons: G
+INFO [2025-10-31 09:52:46,136] this does not begin with a start codon!
+INFO [2025-10-31 09:52:46,137] this does not begin with a start codon!
+WARNING [2025-10-31 09:52:46,137] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 09:52:46,137] this does not begin with a start codon!
+WARNING [2025-10-31 09:52:46,137] this codon is not in our acceptable codons: C
+INFO [2025-10-31 09:52:46,137] this does not begin with a start codon!
+ERROR [2025-10-31 10:02:54,087] Protein Extraction failed: unbound method str.upper() needs an argument
+INFO [2025-10-31 10:03:44,972] this does not begin with a start codon!
+WARNING [2025-10-31 10:03:44,973] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:03:44,973] this does not begin with a start codon!
+WARNING [2025-10-31 10:03:44,973] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:03:44,973] this does not begin with a start codon!
+INFO [2025-10-31 10:04:34,217] this does not begin with a start codon!
+WARNING [2025-10-31 10:04:34,217] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:04:34,217] this does not begin with a start codon!
+WARNING [2025-10-31 10:04:34,218] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:04:34,218] this does not begin with a start codon!
+ERROR [2025-10-31 10:04:34,218] failed to reverse and complement the string: 'list' object has no attribute 'items'
+ERROR [2025-10-31 10:04:34,218] failed reverse complementing : 'list' object has no attribute 'items'
+ERROR [2025-10-31 10:06:09,132] Protein Extraction failed: unbound method str.upper() needs an argument
+ERROR [2025-10-31 10:08:36,582] Protein Extraction failed: unbound method str.upper() needs an argument
+INFO [2025-10-31 10:13:23,534] this does not begin with a start codon!
+WARNING [2025-10-31 10:13:23,534] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:13:23,534] this does not begin with a start codon!
+WARNING [2025-10-31 10:13:23,534] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:13:23,534] this does not begin with a start codon!
+ERROR [2025-10-31 10:13:23,534] Protein Extraction failed: 'list' object has no attribute 'upper'
+ERROR [2025-10-31 10:13:23,534] failed reverse complementing : 'list' object has no attribute 'upper'
+INFO [2025-10-31 10:13:58,852] this does not begin with a start codon!
+WARNING [2025-10-31 10:13:58,852] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:13:58,852] this does not begin with a start codon!
+WARNING [2025-10-31 10:13:58,852] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:13:58,852] this does not begin with a start codon!
+ERROR [2025-10-31 10:13:58,852] Protein Extraction failed: 'list' object has no attribute 'upper'
+ERROR [2025-10-31 10:13:58,852] failed reverse complementing : 'list' object has no attribute 'upper'
+INFO [2025-10-31 10:14:19,169] this does not begin with a start codon!
+WARNING [2025-10-31 10:14:19,169] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:14:19,169] this does not begin with a start codon!
+WARNING [2025-10-31 10:14:19,170] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:14:19,170] this does not begin with a start codon!
+INFO [2025-10-31 10:14:19,170] this does not begin with a start codon!
+WARNING [2025-10-31 10:14:19,170] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:14:19,170] this does not begin with a start codon!
+WARNING [2025-10-31 10:14:19,170] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:14:19,170] this does not begin with a start codon!
+INFO [2025-10-31 10:15:05,850] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:05,850] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:15:05,850] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:05,850] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:15:05,850] this does not begin with a start codon!
+INFO [2025-10-31 10:15:05,851] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:05,851] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:15:05,851] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:05,851] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:15:05,851] this does not begin with a start codon!
+INFO [2025-10-31 10:15:59,127] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:59,127] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:15:59,127] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:59,127] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:15:59,127] this does not begin with a start codon!
+INFO [2025-10-31 10:15:59,128] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:59,128] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:15:59,128] this does not begin with a start codon!
+WARNING [2025-10-31 10:15:59,128] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:15:59,128] this does not begin with a start codon!
+INFO [2025-10-31 10:16:27,874] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:27,874] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:16:27,874] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:27,874] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:16:27,874] this does not begin with a start codon!
+INFO [2025-10-31 10:16:27,875] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:27,875] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:16:27,875] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:27,875] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:16:27,875] this does not begin with a start codon!
+INFO [2025-10-31 10:16:44,924] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:44,924] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:16:44,924] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:44,925] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:16:44,925] this does not begin with a start codon!
+INFO [2025-10-31 10:16:44,925] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:44,926] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:16:44,926] this does not begin with a start codon!
+WARNING [2025-10-31 10:16:44,926] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:16:44,926] this does not begin with a start codon!
+ERROR [2025-10-31 10:25:51,735] Protein Extraction failed: 'list' object has no attribute 'upper'
+INFO [2025-10-31 10:26:09,740] this does not begin with a start codon!
+WARNING [2025-10-31 10:26:09,741] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:26:09,741] this does not begin with a start codon!
+WARNING [2025-10-31 10:26:09,741] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:26:09,741] this does not begin with a start codon!
+WARNING [2025-10-31 10:26:09,741] this codon is not in our acceptable codons: AGG
+ERROR [2025-10-31 10:26:09,741] Protein Extraction failed: list index out of range
+INFO [2025-10-31 10:26:41,996] this does not begin with a start codon!
+WARNING [2025-10-31 10:26:41,996] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:26:41,996] this does not begin with a start codon!
+WARNING [2025-10-31 10:26:41,996] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:26:41,996] this does not begin with a start codon!
+ERROR [2025-10-31 10:26:41,996] failed to reverse and complement the string: slice(None, None, -1)
+ERROR [2025-10-31 10:26:41,996] failed reverse complementing : slice(None, None, -1)
+INFO [2025-10-31 10:27:47,333] this does not begin with a start codon!
+WARNING [2025-10-31 10:27:47,333] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:27:47,333] this does not begin with a start codon!
+WARNING [2025-10-31 10:27:47,333] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:27:47,334] this does not begin with a start codon!
+INFO [2025-10-31 10:27:47,334] this does not begin with a start codon!
+WARNING [2025-10-31 10:27:47,334] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:27:47,334] this does not begin with a start codon!
+WARNING [2025-10-31 10:27:47,334] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:27:47,334] this does not begin with a start codon!
+INFO [2025-10-31 10:31:21,816] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:21,816] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:31:21,816] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:21,816] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:31:21,816] this does not begin with a start codon!
+INFO [2025-10-31 10:31:21,816] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:21,817] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:31:21,817] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:21,817] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:31:21,817] this does not begin with a start codon!
+INFO [2025-10-31 10:31:31,046] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:31,046] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:31:31,046] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:31,047] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:31:31,047] this does not begin with a start codon!
+INFO [2025-10-31 10:31:31,047] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:31,047] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:31:31,048] this does not begin with a start codon!
+WARNING [2025-10-31 10:31:31,048] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:31:31,048] this does not begin with a start codon!
+INFO [2025-10-31 10:35:04,096] this does not begin with a start codon!
+WARNING [2025-10-31 10:35:04,096] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:35:04,097] this does not begin with a start codon!
+WARNING [2025-10-31 10:35:04,097] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:35:04,097] this does not begin with a start codon!
+ERROR [2025-10-31 10:35:04,097] failed to reverse and complement the string: type 'str' is not subscriptable
+ERROR [2025-10-31 10:35:04,097] failed reverse complementing : type 'str' is not subscriptable
+INFO [2025-10-31 10:35:45,110] this does not begin with a start codon!
+WARNING [2025-10-31 10:35:45,111] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:35:45,111] this does not begin with a start codon!
+WARNING [2025-10-31 10:35:45,111] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:35:45,111] this does not begin with a start codon!
+ERROR [2025-10-31 10:35:45,111] failed to reverse and complement the string: type 'str' is not subscriptable
+ERROR [2025-10-31 10:35:45,111] failed reverse complementing : type 'str' is not subscriptable
+INFO [2025-10-31 10:39:05,411] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:05,411] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:39:05,412] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:05,412] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:39:05,412] this does not begin with a start codon!
+ERROR [2025-10-31 10:39:05,412] failed to reverse and complement the string: type 'str' is not subscriptable
+ERROR [2025-10-31 10:39:05,412] failed reverse complementing : type 'str' is not subscriptable
+INFO [2025-10-31 10:39:26,765] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:26,765] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:39:26,765] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:26,765] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:39:26,765] this does not begin with a start codon!
+INFO [2025-10-31 10:39:26,765] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:26,766] this codon is not in our acceptable codons: CC
+INFO [2025-10-31 10:39:26,766] this does not begin with a start codon!
+WARNING [2025-10-31 10:39:26,766] this codon is not in our acceptable codons: C
+INFO [2025-10-31 10:39:26,766] this does not begin with a start codon!
+INFO [2025-10-31 10:45:48,302] this does not begin with a start codon!
+WARNING [2025-10-31 10:45:48,302] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:45:48,302] this does not begin with a start codon!
+WARNING [2025-10-31 10:45:48,302] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:45:48,303] this does not begin with a start codon!
+INFO [2025-10-31 10:45:48,303] this does not begin with a start codon!
+WARNING [2025-10-31 10:45:48,303] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:45:48,303] this does not begin with a start codon!
+WARNING [2025-10-31 10:45:48,304] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:45:48,304] this does not begin with a start codon!
+INFO [2025-10-31 10:46:10,292] this does not begin with a start codon!
+WARNING [2025-10-31 10:46:10,292] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:46:10,292] this does not begin with a start codon!
+WARNING [2025-10-31 10:46:10,293] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:46:10,293] this does not begin with a start codon!
+INFO [2025-10-31 10:46:10,293] this does not begin with a start codon!
+WARNING [2025-10-31 10:46:10,293] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:46:10,293] this does not begin with a start codon!
+WARNING [2025-10-31 10:46:10,293] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:46:10,293] this does not end in a termination codon!
+INFO [2025-10-31 10:51:59,698] this does not begin with a start codon!
+WARNING [2025-10-31 10:51:59,698] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:51:59,699] this does not begin with a start codon!
+WARNING [2025-10-31 10:51:59,699] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:51:59,699] this does not begin with a start codon!
+INFO [2025-10-31 10:51:59,699] this does not begin with a start codon!
+WARNING [2025-10-31 10:51:59,699] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:51:59,699] this does not begin with a start codon!
+WARNING [2025-10-31 10:51:59,699] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:51:59,699] this does not end in a termination codon!
+INFO [2025-10-31 10:53:33,495] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:33,495] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:53:33,495] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:33,495] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:53:33,495] this does not begin with a start codon!
+INFO [2025-10-31 10:53:33,495] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:33,495] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:53:33,495] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:33,496] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:53:33,496] this does not end in a termination codon!
+INFO [2025-10-31 10:53:50,451] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:50,452] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:53:50,452] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:50,452] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:53:50,452] this does not begin with a start codon!
+INFO [2025-10-31 10:53:50,452] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:50,452] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:53:50,452] this does not begin with a start codon!
+WARNING [2025-10-31 10:53:50,452] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:53:50,453] this does not end in a termination codon!
+INFO [2025-10-31 10:54:12,627] this does not begin with a start codon!
+WARNING [2025-10-31 10:54:12,627] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:54:12,627] this does not begin with a start codon!
+WARNING [2025-10-31 10:54:12,627] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:54:12,627] this does not begin with a start codon!
+INFO [2025-10-31 10:54:12,627] this does not begin with a start codon!
+WARNING [2025-10-31 10:54:12,627] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:54:12,628] this does not begin with a start codon!
+WARNING [2025-10-31 10:54:12,628] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:54:12,628] this does not end in a termination codon!
+WARNING [2025-10-31 10:55:21,320] this does not begin with a start codon!
+WARNING [2025-10-31 10:55:21,320] this codon is not in our acceptable codons: TG
+WARNING [2025-10-31 10:55:21,320] this does not begin with a start codon!
+WARNING [2025-10-31 10:55:21,320] this codon is not in our acceptable codons: G
+WARNING [2025-10-31 10:55:21,320] this does not begin with a start codon!
+WARNING [2025-10-31 10:55:21,321] this does not begin with a start codon!
+WARNING [2025-10-31 10:55:21,321] this codon is not in our acceptable codons: CTC
+WARNING [2025-10-31 10:55:21,321] this does not begin with a start codon!
+WARNING [2025-10-31 10:55:21,321] this codon is not in our acceptable codons: T
+WARNING [2025-10-31 10:55:21,321] this does not end in a termination codon!
+INFO [2025-10-31 10:56:25,329] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:25,329] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:56:25,329] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:25,329] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:56:25,329] this does not begin with a start codon!
+INFO [2025-10-31 10:56:25,329] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:25,330] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:56:25,330] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:25,330] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:56:25,330] this does not end in a termination codon!
+INFO [2025-10-31 10:56:29,533] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:29,533] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:56:29,533] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:29,534] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:56:29,534] this does not begin with a start codon!
+INFO [2025-10-31 10:56:29,534] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:29,534] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:56:29,534] this does not begin with a start codon!
+WARNING [2025-10-31 10:56:29,534] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:56:29,535] this does not end in a termination codon!
+INFO [2025-10-31 10:56:47,462] this does not begin with a start codon!
+INFO [2025-10-31 10:56:47,462] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:56:47,463] this does not begin with a start codon!
+INFO [2025-10-31 10:56:47,463] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:56:47,463] this does not begin with a start codon!
+INFO [2025-10-31 10:56:47,463] this does not begin with a start codon!
+INFO [2025-10-31 10:56:47,463] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:56:47,463] this does not begin with a start codon!
+INFO [2025-10-31 10:56:47,463] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:56:47,463] this does not end in a termination codon!
+INFO [2025-10-31 10:57:09,480] this does not begin with a start codon!
+INFO [2025-10-31 10:57:09,480] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:57:09,481] this does not begin with a start codon!
+INFO [2025-10-31 10:57:09,481] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:57:09,481] this does not begin with a start codon!
+INFO [2025-10-31 10:57:09,481] this does not begin with a start codon!
+INFO [2025-10-31 10:57:09,481] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:57:09,481] this does not begin with a start codon!
+INFO [2025-10-31 10:57:09,481] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:57:09,481] this does not end in a termination codon!
+INFO [2025-10-31 10:59:16,035] this does not begin with a start codon!
+INFO [2025-10-31 10:59:16,035] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 10:59:16,035] this does not begin with a start codon!
+INFO [2025-10-31 10:59:16,035] this codon is not in our acceptable codons: G
+INFO [2025-10-31 10:59:16,035] this does not begin with a start codon!
+INFO [2025-10-31 10:59:16,035] this does not begin with a start codon!
+INFO [2025-10-31 10:59:16,035] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 10:59:16,035] this does not begin with a start codon!
+INFO [2025-10-31 10:59:16,036] this codon is not in our acceptable codons: T
+INFO [2025-10-31 10:59:16,036] this does not end in a termination codon!
+INFO [2025-10-31 11:00:06,467] this does not begin with a start codon!
+INFO [2025-10-31 11:00:06,467] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:00:06,467] this does not begin with a start codon!
+INFO [2025-10-31 11:00:06,467] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:00:06,467] this does not begin with a start codon!
+INFO [2025-10-31 11:00:06,467] this does not begin with a start codon!
+INFO [2025-10-31 11:00:06,468] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:00:06,468] this does not begin with a start codon!
+INFO [2025-10-31 11:00:06,468] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:00:06,468] this does not end in a termination codon!
+INFO [2025-10-31 11:02:14,338] this does not begin with a start codon!
+INFO [2025-10-31 11:02:14,338] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:02:14,338] this does not begin with a start codon!
+INFO [2025-10-31 11:02:14,338] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:02:14,338] this does not begin with a start codon!
+INFO [2025-10-31 11:02:14,339] this does not begin with a start codon!
+INFO [2025-10-31 11:02:14,339] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:02:14,339] this does not begin with a start codon!
+INFO [2025-10-31 11:02:14,339] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:02:14,339] this does not end in a termination codon!
+INFO [2025-10-31 11:04:51,584] this does not begin with a start codon!
+INFO [2025-10-31 11:04:51,584] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:04:51,584] this does not begin with a start codon!
+INFO [2025-10-31 11:04:51,584] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:04:51,584] this does not begin with a start codon!
+INFO [2025-10-31 11:04:51,585] this does not begin with a start codon!
+INFO [2025-10-31 11:04:51,585] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:04:51,585] this does not begin with a start codon!
+INFO [2025-10-31 11:04:51,585] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:04:51,585] this does not end in a termination codon!
+INFO [2025-10-31 11:05:57,732] this does not begin with a start codon!
+INFO [2025-10-31 11:05:57,733] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:05:57,733] this does not begin with a start codon!
+INFO [2025-10-31 11:05:57,733] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:05:57,733] this does not begin with a start codon!
+INFO [2025-10-31 11:05:57,733] this does not begin with a start codon!
+INFO [2025-10-31 11:05:57,733] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:05:57,733] this does not begin with a start codon!
+INFO [2025-10-31 11:05:57,734] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:05:57,734] this does not end in a termination codon!
+INFO [2025-10-31 11:07:46,253] this does not begin with a start codon!
+INFO [2025-10-31 11:07:46,253] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:07:46,253] this does not begin with a start codon!
+INFO [2025-10-31 11:07:46,253] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:07:46,253] this does not begin with a start codon!
+INFO [2025-10-31 11:07:46,253] this does not begin with a start codon!
+INFO [2025-10-31 11:07:46,253] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:07:46,254] this does not begin with a start codon!
+INFO [2025-10-31 11:07:46,254] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:07:46,254] this does not end in a termination codon!
+INFO [2025-10-31 11:08:19,501] this does not begin with a start codon!
+INFO [2025-10-31 11:08:19,501] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:08:19,502] this does not begin with a start codon!
+INFO [2025-10-31 11:08:19,502] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:08:19,502] this does not begin with a start codon!
+INFO [2025-10-31 11:08:19,502] this does not begin with a start codon!
+INFO [2025-10-31 11:08:19,502] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:08:19,502] this does not begin with a start codon!
+INFO [2025-10-31 11:08:19,502] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:08:19,502] this does not end in a termination codon!
+INFO [2025-10-31 11:08:58,616] this does not begin with a start codon!
+INFO [2025-10-31 11:08:58,616] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:08:58,616] this does not begin with a start codon!
+INFO [2025-10-31 11:08:58,616] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:08:58,616] this does not begin with a start codon!
+INFO [2025-10-31 11:08:58,616] this does not begin with a start codon!
+INFO [2025-10-31 11:08:58,616] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:08:58,616] this does not begin with a start codon!
+INFO [2025-10-31 11:08:58,616] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:08:58,616] this does not end in a termination codon!
+INFO [2025-10-31 11:13:25,556] this does not begin with a start codon!
+INFO [2025-10-31 11:13:25,556] this codon is not in our acceptable codons: TG
+INFO [2025-10-31 11:13:25,556] this does not begin with a start codon!
+INFO [2025-10-31 11:13:25,556] this codon is not in our acceptable codons: G
+INFO [2025-10-31 11:13:25,556] this does not begin with a start codon!
+INFO [2025-10-31 11:13:25,556] this does not begin with a start codon!
+INFO [2025-10-31 11:13:25,556] this codon is not in our acceptable codons: CTC
+INFO [2025-10-31 11:13:25,556] this does not begin with a start codon!
+INFO [2025-10-31 11:13:25,556] this codon is not in our acceptable codons: T
+INFO [2025-10-31 11:13:25,556] this does not end in a termination codon!
+INFO [2025-10-31 13:08:55,290] testing for counting nucloetides
+INFO [2025-10-31 13:10:58,756] testing for counting nucloetides
+INFO [2025-10-31 13:15:20,830] testing for counting nucloetides
+INFO [2025-10-31 13:16:23,217] testing for counting nucloetides
+INFO [2025-10-31 13:17:46,278] testing for counting nucleotides
+INFO [2025-10-31 13:18:18,936] testing for counting nucleotides
+INFO [2025-10-31 13:41:53,152] testing for counting nucleotides
+INFO [2025-10-31 13:42:22,169] testing for counting nucleotides
+INFO [2025-10-31 13:44:01,814] testing for counting nucleotides
+INFO [2025-10-31 13:44:29,300] testing for counting nucleotides
+INFO [2025-10-31 13:50:02,127] testing for counting nucleotides
+INFO [2025-10-31 13:50:43,143] testing for counting nucleotides
+INFO [2025-10-31 14:14:03,618] testing for counting nucleotides
+INFO [2025-10-31 14:21:54,222] testing for counting nucleotides
+INFO [2025-10-31 14:25:17,286] testing for counting nucleotides
+INFO [2025-10-31 14:32:13,616] testing for counting nucleotides
+INFO [2025-10-31 14:33:29,152] testing for counting nucleotides
+INFO [2025-10-31 14:35:32,168] testing for counting nucleotides
+INFO [2025-10-31 14:35:44,502] testing for counting nucleotides
+INFO [2025-10-31 14:36:00,472] testing for counting nucleotides

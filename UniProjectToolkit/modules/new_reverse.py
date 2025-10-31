@@ -3,7 +3,7 @@ from UniProjectToolkit.modules.Translate import find, protein_print
 from UniProjectToolkit.modules.GappingDNA import split_dna, format_dna
 from UniProjectToolkit.modules.logger import logger
 
-def reverse_string (dna=str):
+def reverse_string (dna):
     rev_string = dna[::-1]
     return rev_string
 
@@ -32,7 +32,6 @@ def reverse_complement (codon_table, complement_table, dna=str):
     try:
         reverse_string = complement(dna, complement_table)
         reverse_protein = find(codon_table, acceptable_codons, reverse_string)
-        print(reverse_protein)
         return reverse_protein
     except Exception as e:
             logger.error("failed reverse complementing : {}" .format(e))

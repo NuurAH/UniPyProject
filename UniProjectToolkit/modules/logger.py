@@ -9,13 +9,13 @@ def create_logger():
     parent_directory = Path(pw_directory).parent
     #create logger
     logger = logging.getLogger("UniProjectToolkit_logger")
-    logger.setLevel(logging.DEBUG) #This can be changed 
+    logger.setLevel(logging.INFO) #This can be changed 
 
     logger.propagate = False
     if not logger.hasHandlers():
     #making a stream handler, adapted from tutorial
         stream_handler = logging.StreamHandler()
-        stream_handler.setLevel(logging.DEBUG)
+        stream_handler.setLevel(logging.WARNING)
         stream_formatter = logging.Formatter("%(levelname)s [%(asctime)s] %(message)s" )
         stream_handler.setFormatter(stream_formatter)
 

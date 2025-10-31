@@ -15,7 +15,7 @@ def find(codon_table, acceptable_codons, dna=str, *args):
                     protein = key
                     break
             if protein not in acceptable_codons:
-                logger.warning (f"this codon is not in our acceptable codons: {codon}")
+                logger.info (f"this codon is not in our acceptable codons: {codon}")
                 break
             elif protein is None:
                 logger.warning(f"Unknown codon: {codon}")
@@ -23,7 +23,7 @@ def find(codon_table, acceptable_codons, dna=str, *args):
             extracted_proteins.append(protein) 
         #give warning that this does not start at start codon
         if extracted_proteins[0] != "M":
-            logger.info (f"this does not begin with a start codon!")
+            logger.info(f"this does not begin with a start codon!")
         #give warning that this doesn't end in a stop codon
         elif extracted_proteins[-1] != "*":
             logger.info(f"this does not end in a termination codon!")
@@ -47,11 +47,12 @@ def post_modifications(start_codon, stop_codon, any_list=list):
 
 
 def protein_print(extracted_proteins=list):
-    protein_string = ""
-    for protein in extracted_proteins:
-        protein_string += protein
-        if protein not in acceptable_codons:   
-            print(f"{protein} is not an acceptable codon!")
-        elif protein == stop_codon:
-            return (protein_string)
-    return(protein_string)
+    try:
+        if not isinstance(extracted_proteins, list):
+            raise TypeError("Issue with previous step, please check log!")
+        protein_string = ""
+        for protein in extracted_proteins:
+            protein_string += protein
+        return(protein_string)
+    except TypeError as e:
+        logger.error ("protein printing has failed with exception: {}" .format(e))
