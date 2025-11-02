@@ -1,4 +1,4 @@
-def fileAmino(amino_list=list):
+def fileAmino():
     amino_list = []
     fileOf = input("Which file would you like to read in?")
     interest = open(fileOf, "rt")
@@ -6,7 +6,7 @@ def fileAmino(amino_list=list):
     with interest:
         for codon,text in enumerate(interest):
             if amino_acid in text:
-                amino_list.append(codon)
+                amino_list.append(text.strip())
     amino_count = len(amino_list)
     if amino_count == 0:
         print(f"Warning!, the amino acid, {amino_acid}, does not appear! Have you made an error?")
@@ -14,7 +14,7 @@ def fileAmino(amino_list=list):
         print(f"The amino acid, {amino_acid}, appears once")
     elif amino_count >1:
         print(f"The amino acid, {amino_acid}, appears {amino_count} times")
-    return interest, amino_list
+    return amino_list
 
 if __name__ == "__main__":
-    fileAmino(amino_list=list)
+    fileAmino()

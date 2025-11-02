@@ -16,7 +16,7 @@ def find(codon_table, acceptable_codons, dna=str, *args):
                     break
             if protein not in acceptable_codons:
                 logger.info (f"this codon is not in our acceptable codons: {codon}")
-                break
+                continue
             elif protein is None:
                 logger.warning(f"Unknown codon: {codon}")
                 break
@@ -44,6 +44,35 @@ def post_modifications(start_codon, stop_codon, any_list=list):
             any_list.pop(-1)
         any_list.append(stop_codon)
     return any_list
+
+def create_frames( start_codon, stop_codon, any_list = list):
+#this is different as it returns multiple M's as an array and mutliple *s in an array
+#so the positions of each M and * will be returned and then evaluated
+    start_list = []
+    stop_list = []
+    for i in range(len(any_list)):
+        if any_list[i] == start_codon:
+            start_list.append(i)
+    for i in range(len(any_list)):
+        if any_list[i] == stop_codon:
+            stop_list.append(i)
+    
+    return start_list, stop_list
+
+def evaluate_frames(start_codon, stop_codon, any_list=list):
+    start_list, stop_list = create_frames(start_codon, stop_codon, any_list)
+    ORF_list = []
+
+    for startP in start_list:
+        for stopP in stop_list:
+            if stopP > startP:
+                ORF_list.append(stopP - startP + 1)
+                break
+    largest_ORF = max(ORF_list)
+    print(f"Index of the largest transcript from M to * is  {ORF_list.index(largest_ORF)}, with , {largest_ORF} nucleotides")
+    co_ordinate_val = start_list[ORF_list.index(largest_ORF)]
+    co_ordinates = any_list[co_ordinate_val : co_ordinate_val + (largest_ORF)]
+    return co_ordinates
 
 
 def protein_print(extracted_proteins=list):

@@ -1,18 +1,13 @@
 from UniProjectToolkit.modules.Problem3B import fileAmino
 
-def aminoAppear(amino_acids):
-    interest = []
-    amino_list = []
-    fileAmino()
+def aminoAppear(amino_list, amino_acids):
     new_list = []
     counter = 0
     set_list = []
     counter_list = []
     
 #need to clean the data, so I have to strip it and remove all the spaces        
-    for x in amino_list:
-        stripped_amino = x.strip()
-    stripped_amino = [x.strip(" ") for x in amino_list]
+    stripped_amino = [x.strip() for x in amino_list]
 #print(stripped_amino)
 
 # check inside of each string without a space to see if the amino acid code is in there
@@ -40,4 +35,5 @@ if __name__ == "__main__":
 #List of variables
     amino_acids = [ "ALA", "ARG", "ASN", "ASP", "CYS", "GLN", "GLU", "GLY", "HIS", "ILE", "LEU", "LYS", "MET", "PHE", "PRO", 
                "SER", "THR", "TRP", "TYR", "VAL"]
-    aminoAppear(amino_acids)
+    amino_list = fileAmino()
+    aminoAppear(amino_list, amino_acids)

@@ -19,8 +19,7 @@ def complement (dna=str, default_table=dict):
                     nucleotide = key
                     break
             if nucleotide is None:
-                logger.warning(f"Unknown nucleotide!: {base}")
-                raise
+                continue
             reverse_codons.append(nucleotide)
             complements = "".join(reverse_codons)
         return complements
